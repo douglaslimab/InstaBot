@@ -49,7 +49,7 @@ class Instabot:
 
     def like_post(self):
         driver = self.driver
-        Element_Like = driver.find_element_by_xpath('/html/body/div[6]/div[2]/div/article/div/div[2]/div/div/div[2]/section[1]/span[1]/button').click()
+        Element_Like = driver.find_element_by_xpath('/html/body/div[6]/div[3]/div/article/div/div[3]/div/div/section[1]/span[1]/button').click()
         time.sleep(1)
 
     def next_post(self):
